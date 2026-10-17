@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RAI — Revenue Analytics Intelligence</title><link rel="stylesheet" href="css/styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script></head><body>
+<section id="login"><div class="lbox"><div class="logo"><svg viewBox="0 0 40 40" width="46"><path d="M20 2 36 11v18L20 38 4 29V11z" fill="none" stroke="#22d3ee" stroke-width="2"/><text x="20" y="25" text-anchor="middle" fill="#fbbf24" font-size="13" font-weight="700">RAI</text></svg><div><b>RAI</b><small>REVENUE ANALYTICS INTELLIGENCE</small></div></div>
+<h1>Welcome to RAI</h1><p class="sub">Your business. Your numbers. Your intelligence.</p>
+<p class="mut">Financial intelligence and performance analytics for fictional demo companies.</p>
+<form id="lf" novalidate><input id="u" placeholder="Company username" autocomplete="off"><div class="pw"><input id="p" type="password" placeholder="Company password"><button type="button" id="eye" aria-label="Show or hide password">👁</button></div>
+<div id="err" role="alert"></div><button class="btn">Sign In</button></form>
+<div class="demo"><small>DEMO ACCESS (fictional, local only)</small><div id="demo"></div></div>
+<p class="mut tiny">Demo authentication runs in the browser and is NOT secure. Replace with server-side auth before production.</p></div></section>
+<div id="app" hidden><aside><div class="logo"><b>RAI</b><small>ANALYTICS</small></div><nav id="nav"></nav><div class="stat"><i></i> Demo data · local</div></aside>
+<main><header><h2 id="title"></h2><span id="co"></span><span class="mut">● SIMULATED DATA</span><span id="clock"></span><button class="btn s" id="lo">Logout</button></header><div id="view"></div></main></div>
+<div id="toast"></div><script type="module" src="js/app.js"></script></body></html>
